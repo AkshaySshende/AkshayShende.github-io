@@ -474,19 +474,7 @@
 <script type="text/javascript">
   emailjs.init('ocPPB2rnTCYw9scqf')
 </script>
-<script>
-function sendmail(){
-    var params  = {
-        name = document.getElementById('name').value,
-        email = document.getElementById('email').value,
-        subject = document.getElementById('subject').value,
-        message = document.getElementById('message').value,
-    }
-    emailjs.send("service_boyvw5u","template_ylj8vjq",params).then(function(res) {
-        alert("Service successfully registered");
-    })
-}
-</script>
+
 <script>
 const btn = document.getElementById('button');
 
